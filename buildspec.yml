@@ -17,4 +17,4 @@ phases:
       - ls target/
 artifacts:
   files:
-    - target/mysql-connector-java.jar
+    - target/mysql-connector-java-001.jar

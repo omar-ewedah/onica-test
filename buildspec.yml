@@ -9,11 +9,11 @@ phases:
       - echo Nothing to do in the pre_build phase...
   build:
     commands:
-      - echo Build started on `date`
+      - echo Build started on `date2`
       - mvn install
   post_build:
     commands:
-      - echo Build completed on `date`
+      - echo Build completed on `date2`
 artifacts:
   files:
     - target/mysql-connector-java-001.jar
